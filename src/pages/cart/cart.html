@@ -1,22 +1,16 @@
-
 <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Browse Products</ion-title>
-    <ion-buttons end>
-      <button ion-button icon-only (click)="cartIconClicked($event)">
-        {{numCartItems}}
-        <ion-icon name="cart"></ion-icon>
-      </button>
-    </ion-buttons>
+    <ion-title>My Cart</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
+
   <ion-list>
-    <button ion-item *ngFor="let p of products" (click)="productClicked($event, p)">
+    <button ion-item *ngFor="let p of cartItems" (click)="productClicked($event, p)">
       <ion-img width="80" height="80" src={{p.image}}>
       </ion-img>
       {{p.name}}
@@ -25,5 +19,12 @@
       </div>
     </button>
   </ion-list>
+  <hr>
+  <div text-center>
+    <h2>Total: {{total}}</h2>
+    <button ion-button round (click)="checkoutClicked($event)">
+      Checkout
+    </button>
+  </div>
 
 </ion-content>

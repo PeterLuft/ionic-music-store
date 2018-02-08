@@ -9,6 +9,7 @@
 
 <ion-content>
 
+
   <ion-grid>
     <ion-row>
       <h4 text-center *ngIf="selectedProduct">
@@ -36,6 +37,10 @@
     </ion-row>
   </ion-grid>
 
-  <button ion-button round (click)="addToCart($event, selectedProduct)">Add to Cart</button>
+
+
+  <button ion-button color="danger" round (click)="removeFromCart($event, selectedProduct)">
+    Remove From Cart
+  </button>
 
 </ion-content>

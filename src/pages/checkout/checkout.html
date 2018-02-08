@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Checkout</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+  <h4 text-center>
+    Total: {{totalCost}}
+  </h4>
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary" stacked>Full Name</ion-label>
+      <ion-input placeholder="John Doe"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Credit Card Number</ion-label>
+      <ion-input [(ngModel)]="creditCard" type="number" placeholder="0000 0000 0000 0000"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Credit Card Expiry Date</ion-label>
+      <ion-input [(ngModel)]="exp" type="number" placeholder="4/12"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Credit Card CVV Code</ion-label>
+      <ion-input [(ngModel)]="cvv" type="number" placeholder="123"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <div text-center>
+    <button ion-button round (click)="confirmClicked($event)">
+      Confirm Order
+    </button>
+  </div>
+
+</ion-content>

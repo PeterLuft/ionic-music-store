@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Akai Professional MPK Mini MKII",
+      "id": "01",
+      "description": "The new MPK Mini MKII is an ultra-compact keyboard controller designed to easily fit in the laptop-toting musician's backpack and still earn its spot on the desktop producer's crowded table space.",
+      "price": "99.00"
+    },
+    {
+      "name": "Focusrite Scarlett Solo",
+      "id": "02",
+      "description": "With Scarlett Solo your recordings will sound just how you want them. The latest Scarlett mic preamp features a more even gain structure, so you can accurately set your levels, and the instrument input has also been completely redesigned so it can handle seriously hot guitar pick-ups.",
+      "price": "119.00"
+    },
+    {
+      "name": "midiplus AKM320",
+      "id": "03",
+      "description": "AKM320 is MIDI keyboard controller of 32 mini keys with velocity sensitive, and its basic functions are complete and easy to understand the mode of operation.",
+      "price": "199.00"
+    },
+    {
+      "name": "BEHRINGER U-PHORIA UMC204HD",
+      "id": "04",
+      "description": "BEHRINGER UMC204HD Audiophile 2x4, 24-Bit/192 kHz USB Audio/MIDI Interface with MIDAS Mic Preamplifiers",
+      "price": "79.00"
+    },
+    {
+      "name": "Fender Affinity Telecaster",
+      "id": "05",
+      "description": "The Squier by Fender Affinity Series Telecaster comes equipped with two Single-Coil Telecaster style pickups which provide the timeless Tele tone that has graced countless recording.",
+      "price": "399.00"
+    },
+    {
+      "name": "Fender Squier Classic Vibe 50's Stratocaster",
+      "id": "06",
+      "description": "Based on classic Fender designs with a few modern touches of their own, Squier's award-winning Classic Vibe guitars and basses impart the vibe of classic Fender instruments with distinctive features that add up to great sound, vintage looks and unbeatable value.",
+      "price": "599.00"
+    },
+    {
+      "name": "Fender Vintage Modified Mustang",
+      "id": "07",
+      "description": "Squire welcomes its first-ever Mustang guitar to the family in the sleekly diminutive form of the Vintage Modified Mustang. With its distinctive 24-Inch scale, dual pickup switches and floating bridge with dynamic vibrato tailpiece, its a classic mudded with present-day touches including full-sounding Duncan Designed pickups and a 9.5 fingerboard radius.",
+      "price": "299.00"
+    },
+    {
+      "name": "Korg microKorg 37-Key Analog Modeling Synthesizer",
+      "id": "08",
+      "description": "Combining mini-keys, battery power, a simple-to-use interface, and phenomenal sound, all at an attractive price, microKORG made the synthesizer available to every musician.",
+      "price": "499.00"
+    },
+    {
+      "name": "Moog Mother-32 Analog Synthesizer",
+      "id": "09",
+      "description": "he Moog Mother-32 is the first semi-modular tabletop and Eurorack synthesizer from Moog. It is a distinctive analog instrument that adds raw analog sound, sequencing and extensive interconnectivity to any electronic or modular ecosystem.",
+      "price": "999.00"
+    },
+    {
+      "name": "Fender Modern Player Tele Plus",
+      "id": "10",
+      "description": "The Modern Player series continues that great my-first-Fender tradition, with thoroughly modern features and several distinctively unconventional new take son our most revered instruments-all with outstandingly attainable value.",
+      "price": "299.00"
+    }
+  ]
+}
